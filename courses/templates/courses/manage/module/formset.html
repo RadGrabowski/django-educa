@@ -7,7 +7,7 @@
     <div class="module">
         <h2>Course modules</h2>
         <form method="post">
-            {{ formset }}
+            {{ formset.as_p }}
             {{ formset.management_form }}
             {% csrf_token %}
             <input type="submit" value="Save modules">
