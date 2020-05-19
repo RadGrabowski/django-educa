@@ -95,7 +95,7 @@ h1 {
     margin: 0 0 10px 0;
     padding: 4px 10px 10px;
     overflow: auto;
-    cursor: move;
+    cursor: pointer;
 }
 
 .contents ul li.selected {
@@ -120,7 +120,7 @@ h1 {
 
 .contents ul a:hover {
     color: #4dcc43;
-    cursor: move;
+    cursor: pointer;
 }
 
 ul.content-types li {
@@ -203,7 +203,7 @@ ul#course-modules textarea {
 ul#course-modules li {
     padding: 20px;
     overflow: auto;
-    cursor: move;
+    cursor: pointer;
 }
 
 ul#course-modules li:nth-child(even) {
@@ -232,10 +232,12 @@ ul#course-modules li:hover {
     padding: 0;
     float: left;
     text-transform: none;
+    cursor: pointer;
+
 }
 
-#module-contents div:hover {
-    cursor: move;
+#module-contents div a:hover {
+    cursor: pointer;
 }
 
 .course-info {
